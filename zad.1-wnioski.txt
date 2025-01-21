@@ -1,0 +1,3 @@
+Połączenie PDO jest najlepszym rozwiązaniem dla dużych i profesjonalnych projektów.Jest uniwersalne i bezpieczene. Wspiera różne bazy danych.
+Strukturalne mysqli jest najprostsze; jest to dobre rozwiązanie na szybkie i małe projekty, które nie wymagają większych zaezpieczeń. Dobre do nauki. 
+Obkietowy mysqli jest dobrym rozwiązaniem, jeżeli chcemy używać konkretnie MYSQL'a, a jednocześnie potrzebujemy rozwiązania obiektowego.
