@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 21 Sty 2025, 14:13
--- Wersja serwera: 10.4.21-MariaDB
--- Wersja PHP: 8.0.10
+-- Generation Time: Feb 18, 2025 at 01:59 PM
+-- Wersja serwera: 10.4.32-MariaDB
+-- Wersja PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Baza danych: `sks`
+-- Database: `sks`
 --
 
 -- --------------------------------------------------------
@@ -34,14 +34,16 @@ CREATE TABLE `zawodnicy` (
   `klasa` int(11) NOT NULL,
   `rokurodzenia` int(11) NOT NULL,
   `wzrost` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Zrzut danych tabeli `zawodnicy`
+-- Dumping data for table `zawodnicy`
 --
 
 INSERT INTO `zawodnicy` (`id`, `imie`, `nazwisko`, `klasa`, `rokurodzenia`, `wzrost`) VALUES
-(1, 'jamal', 'kneegrow', 4, 0, 0);
+(18, 'AAA', 'bbbb', 2, 2019, 129),
+(41, 'Wojtek', 'Jakov', 3, 2006, 200),
+(42, 'Szalom', 'Szabat', 1, 2011, 140);
 
 --
 -- Indeksy dla zrzutów tabel
@@ -54,14 +56,14 @@ ALTER TABLE `zawodnicy`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT dla zrzuconych tabel
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT dla tabeli `zawodnicy`
+-- AUTO_INCREMENT for table `zawodnicy`
 --
 ALTER TABLE `zawodnicy`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
